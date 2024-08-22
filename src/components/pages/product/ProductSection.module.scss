@@ -1,0 +1,66 @@
+.ProductSection {
+  .content {
+    width: 100%;
+    .container_cars {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 35px;
+      width: 100%;
+      .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+        padding: 10px 10px 0px 10px;
+        border: 2px solid transparent;
+        color: white;
+        cursor: pointer;
+        h2 {
+          font-family: "Inter", sans-serif;
+          font-size: 25px;
+          font-weight: 500;
+          margin-block: 12px;
+        }
+        img {
+          width: 100%;
+        }
+        .price_btns {
+          display: flex;
+          justify-content: space-between;
+          .buttons {
+            display: flex;
+            gap: 0px 20px;
+            button {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 0px 10px;
+              height: 50px;
+              border-radius: 10px;
+              border: 1px solid transparent;
+              outline: none;
+              cursor: pointer;
+              background-color: transparent;
+              &:hover {
+                border: 1px solid #f3bb2ef7;
+              }
+            }
+          }
+        }
+        p {
+          font-family: "Inter", sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          margin: 5px 0px 20px;
+          color: #f3bb2ef7;
+        }
+        &:hover {
+          display: flex;
+          flex-direction: column;
+          border: 2px solid #f3bb2ef7;
+        }
+      }
+    }
+  }
+}

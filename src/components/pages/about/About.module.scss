@@ -1,0 +1,87 @@
+.AboutSection {
+  .content {
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+    padding: 50px;
+    img {
+      width: 100%;
+    }
+    .info_container {
+      margin-top: 20px;
+      width: 100%;
+      .title_content {
+        h1 {
+          color: #ffff;
+          font-size: 35px;
+          font-weight: 600;
+        }
+        p {
+          font-family: "Inter", sans-serif;
+          font-size: 42px;
+          font-weight: 600;
+          margin: 5px 0 40px;
+          color: #f3bb2ef7;
+        }
+      }
+      .info_product {
+        table {
+          width: 100%;
+          tbody {
+            width: 100%;
+            tr {
+              color: #b0b0b0;
+              width: 100%;
+              box-sizing: border-box;
+              th {
+                text-align: start;
+                font-style: normal;
+                font-size: 0.9em;
+                padding: 20px;
+                background: 0 !important;
+                width: 150px;
+                font-weight: 700;
+                border-top: 0;
+                margin: 0;
+                line-height: 1.5;
+                border-bottom: 2px solid rgba(196, 196, 196, 0.534);
+              }
+              td {
+                font-size: 0.9em;
+                padding: 20px;
+                background: 0 !important;
+                border-top: 0;
+                border-bottom: 2px solid rgba(196, 196, 196, 0.534);
+
+                margin: 0;
+                line-height: 1.5;
+              }
+            }
+          }
+        }
+        .button{
+          display: flex;
+          justify-content: center;
+          margin-top: 70px;
+
+          button{
+            border: none;
+            outline: none;
+            padding: 18px 32px;
+            border-radius:30px;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #e6a036;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+              background-color: #ff9c08;
+              color: rgb(240, 239, 239);
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
